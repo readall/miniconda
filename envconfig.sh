@@ -19,6 +19,8 @@ conda install -y -c conda-forge beakerx
 conda install -y -c conda-forge xeus-cling
 conda install -y -c conda-forge xeus-python
 conda install pytorch torchvision torchaudio cpuonly -c pytorch
+conda install -y -c conda-forge tensorflow
+conda install -y -c conda-forge keras
 conda install -c huggingface transformers
 
 # Some extra packages for your environments
