@@ -21,7 +21,7 @@ RUN wget --quiet https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_6
     ln -s /opt/conda/etc/profile.d/conda.sh /etc/profile.d/conda.sh && \
     echo ". /opt/conda/etc/profile.d/conda.sh" >> ~/.bashrc && \
     echo "conda activate base" >> ~/.bashrc &&\
-    /opt/conda/etc/profile.d/conda.sh init
+    /bin/bash /opt/conda/etc/profile.d/conda.sh init
     
 RUN chown -R gitpod:gitpod /opt/conda \
     && chmod -R 777 /opt/conda \
