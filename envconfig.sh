@@ -7,7 +7,7 @@ mkdir -p /workspace/conda
 mkdir -p /workspace/data
 
 #Create a new env called hugging
-conda create --prefix /workspace/conda/hugging python=3.6 &&
+conda create --prefix /workspace/conda/hugging python=3.8 &&
 echo "conda activate /workspace/conda/hugging" >> ~/.bashrc &&
 export PATH=/workspace/conda/hugging/bin:$PATH &&
 source ~/.bashrc
